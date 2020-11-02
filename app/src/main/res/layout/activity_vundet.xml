@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity_Tabt">
 
     <TextView
-        android:id="@+id/textViewGz"
+        android:id="@+id/du_vandt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Galgeleg"
-        android:textColor="@android:color/background_dark"
+        android:text="Tillykke, du vandt!"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
         android:textSize="42dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,30 +20,44 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.183" />
 
+
     <Button
-        android:id="@+id/spil"
-        android:layout_width="221dp"
-        android:layout_height="108dp"
-        android:text="HIGHSCORE"
-        android:textSize="25sp"
-        android:textFont = "bold"
+        android:id="@+id/prøv_igen_vundet"
+        android:layout_width="256dp"
+        android:layout_height="87dp"
+        android:text="Prøv igen"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381" />
+
+
+    <Button
+        android:id="@+id/gå_til_start_vundet"
+        android:layout_width="256dp"
+        android:layout_height="87dp"
+        android:text="Gå til start"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <TextView
+        android:id="@+id/opsum_vundet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Der blev brugt # gæt"
+        android:textAlignment="center"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
-
-    <Button
-        android:id="@+id/highscore"
-        android:layout_width="221dp"
-        android:layout_height="108dp"
-        android:text="SPIL"
-        android:textSize="25sp"
-        android:textFont = "bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
-
+        app:layout_constraintVertical_bias="0.684" />
 </androidx.constraintlayout.widget.ConstraintLayout>
