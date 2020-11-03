@@ -14,7 +14,7 @@
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="42dp"
-        android:textFont = "bold"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

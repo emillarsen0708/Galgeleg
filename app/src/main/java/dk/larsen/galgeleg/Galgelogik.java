@@ -19,7 +19,7 @@ public class Galgelogik {
     private boolean sidsteBogstavVarKorrekt;
     private boolean spilletErVundet;
     private boolean spilletErTabt;
-00
+
     public Galgelogik() {
         muligeOrd.add("bil");
         muligeOrd.add("computer");

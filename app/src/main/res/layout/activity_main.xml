@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textViewGz"
+        android:id="@+id/header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Galgeleg"
@@ -21,12 +21,12 @@
         app:layout_constraintVertical_bias="0.183" />
 
     <Button
-        android:id="@+id/spil"
-        android:layout_width="221dp"
-        android:layout_height="108dp"
+        android:id="@+id/highscore"
+        android:layout_width="244dp"
+        android:layout_height="132dp"
         android:text="HIGHSCORE"
+        android:textStyle="bold"
         android:textSize="25sp"
-        android:textFont = "bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,12 +34,12 @@
         app:layout_constraintVertical_bias="0.711" />
 
     <Button
-        android:id="@+id/highscore"
+        android:id="@+id/spil"
         android:layout_width="221dp"
         android:layout_height="108dp"
         android:text="SPIL"
         android:textSize="25sp"
-        android:textFont = "bold"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

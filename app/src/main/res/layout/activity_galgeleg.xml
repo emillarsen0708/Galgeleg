@@ -7,7 +7,7 @@
     tools:context=".Activity_Galgeleg">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/galgen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/galge"
@@ -19,16 +19,16 @@
         app:layout_constraintVertical_bias="0.372" />
 
     <Button
-        android:id="@+id/buttonRules"
+        android:id="@+id/enter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gæt!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.634"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.742" />
+        app:layout_constraintVertical_bias="0.751" />
 
     <EditText
         android:id="@+id/gæt_ord"
@@ -65,10 +65,10 @@
         android:text="Få svar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.784" />
+        app:layout_constraintVertical_bias="0.751" />
 
     <Button
         android:id="@+id/hent_ord_dr"
@@ -78,10 +78,10 @@
         android:text="Hent ord fra DR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.841" />
 
     <Button
         android:id="@+id/nyt_spillet"
@@ -91,10 +91,10 @@
         android:text="Nyt spil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintHorizontal_bias="0.623"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
+        app:layout_constraintVertical_bias="0.841" />
 
     <TextView
         android:id="@+id/galge_ordet"
@@ -119,6 +119,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/textViewLossCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L = 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/textViewWinCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="W = 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
