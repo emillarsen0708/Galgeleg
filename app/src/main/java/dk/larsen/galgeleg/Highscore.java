@@ -2,6 +2,7 @@ package dk.larsen.galgeleg;
 
 public class Highscore {
 
+
     private String name;
     int wonInARow, lossInARow;
 
