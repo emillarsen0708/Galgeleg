@@ -27,7 +27,7 @@ public class Activity_Slut extends AppCompatActivity {
         });
     }
     private void openMainActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, Activity_Start.class);
         startActivity(intent);
     }
 

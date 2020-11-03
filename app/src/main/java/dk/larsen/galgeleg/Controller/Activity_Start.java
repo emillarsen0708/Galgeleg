@@ -9,14 +9,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import dk.larsen.galgeleg.R;
 
-public class MainActivity extends AppCompatActivity {
+public class Activity_Start extends AppCompatActivity {
 
     Button spil_knap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_start);
 
         spil_knap = findViewById(R.id.spil);
         spil_knap.setOnClickListener(new View.OnClickListener(){

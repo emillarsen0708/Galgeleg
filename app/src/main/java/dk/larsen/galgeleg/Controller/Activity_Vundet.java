@@ -36,7 +36,7 @@ public class Activity_Vundet extends AppCompatActivity {
         opsumVundet.setText("Der blev brugt \n" + bundle.getInt("galgelogik.getBrugteBogstaverSize") + " forsøg");
     }
     private void openMainActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, Activity_Start.class);
         startActivity(intent);
     }
 }

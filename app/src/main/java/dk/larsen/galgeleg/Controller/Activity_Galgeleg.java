@@ -22,7 +22,7 @@ public class Activity_Galgeleg extends AppCompatActivity implements View.OnClick
 
     private Galgelogik galgelogik = new Galgelogik();
     private EditText gætOrd;
-    private Button enter, faaSvar, hentOrdDr, nytSpil;
+    private Button enter_gæt, faaSvar, hentOrdDr, nytSpil;
     private ImageView galgen;
     private TextView galgeSpilOrdet, brugteBogstav, lossCount, winCount;
     private int wonInARow = 0;
@@ -35,7 +35,7 @@ public class Activity_Galgeleg extends AppCompatActivity implements View.OnClick
         setContentView(R.layout.activity_galgeleg);
 
         gætOrd = findViewById(R.id.gæt_ord);
-        enter = findViewById(R.id.enter);
+        enter_gæt = findViewById(R.id.enter_gæt);
         faaSvar = findViewById(R.id.få_svar);
         hentOrdDr = findViewById(R.id.hent_ord_dr);
         nytSpil = findViewById(R.id.nyt_spillet);
@@ -45,7 +45,7 @@ public class Activity_Galgeleg extends AppCompatActivity implements View.OnClick
         lossCount = findViewById(R.id.textViewLossCounter);
         winCount = findViewById(R.id.textViewWinCounter);
 
-        enter.setOnClickListener((View.OnClickListener) this);
+        enter_gæt.setOnClickListener((View.OnClickListener) this);
         faaSvar.setOnClickListener((View.OnClickListener) this);
         hentOrdDr.setOnClickListener((View.OnClickListener) this);
         nytSpil.setOnClickListener((View.OnClickListener) this);
@@ -62,7 +62,7 @@ public class Activity_Galgeleg extends AppCompatActivity implements View.OnClick
 
     @Override
     public void onClick (View v) {
-        if (v == enter) {
+        if (v == enter_gæt) {
             gætEtBogstav();
         } else if (v == faaSvar) {
             Toast.makeText(this, galgelogik.getOrdet(), Toast.LENGTH_SHORT).show();
@@ -145,9 +145,9 @@ public class Activity_Galgeleg extends AppCompatActivity implements View.OnClick
             currentWord = currentWord + "  " + galgelogik.getBrugteBogstaver().get(i);
         }
 
-        if (enter.getText().toString().equals("")) {
+        if (enter_gæt.getText().toString().equals("")) {
             Toast.makeText(this, "Indtast bogstav, og tryk på gæt", Toast.LENGTH_SHORT).show();
-        } else if (!enter.getText().equals("")) {
+        } else if (!enter_gæt.getText().equals("")) {
             if (!galgelogik.erSidsteBogstavKorrekt() && galgelogik.getAntalForkerteBogstaver() < 6) {
                 if (galgelogik.getAntalForkerteBogstaver() == 1) {
                     Toast.makeText(this, "Du har gættet forkert " + (galgelogik.getAntalForkerteBogstaver()) + " gang.", Toast.LENGTH_SHORT).show();

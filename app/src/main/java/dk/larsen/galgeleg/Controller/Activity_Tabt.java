@@ -38,7 +38,7 @@ public class Activity_Tabt extends AppCompatActivity {
         ordetVar.setText("Galgeordet var '" + bundle.getString("galgelogik.getOrdet")+ "'");
     }
     private void openMainActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, Activity_Start.class);
         startActivity(intent);
     }
 }
