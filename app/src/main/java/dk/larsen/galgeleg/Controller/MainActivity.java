@@ -1,4 +1,4 @@
-package dk.larsen.galgeleg;
+package dk.larsen.galgeleg.Controller;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import dk.larsen.galgeleg.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package dk.larsen.galgeleg;
+package dk.larsen.galgeleg.Controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import dk.larsen.galgeleg.R;
 
 public class Activity_Tabt extends AppCompatActivity {
 

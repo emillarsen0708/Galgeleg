@@ -1,4 +1,6 @@
-package dk.larsen.galgeleg;
+package dk.larsen.galgeleg.Model;
+
+// Det blev aldrig til mere, med highscoren. Ville lave listview
 
 public class Highscore {
 

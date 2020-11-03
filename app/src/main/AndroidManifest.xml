@@ -11,12 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity_Slut"></activity>
-        <activity android:name=".Activity_Vundet" />
-        <activity android:name=".Activity_Tabt" />
-        <activity android:name=".Activity_Galgeleg" />
+        <activity android:name=".Controller.Activity_Slut"></activity>
+        <activity android:name=".Controller.Activity_Vundet" />
+        <activity android:name=".Controller.Activity_Tabt" />
+        <activity android:name=".Controller.Activity_Galgeleg" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Controller.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

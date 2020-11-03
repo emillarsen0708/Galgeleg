@@ -1,4 +1,4 @@
-package dk.larsen.galgeleg;
+package dk.larsen.galgeleg.Controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,6 +14,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import dk.larsen.galgeleg.Model.Galgelogik;
+import dk.larsen.galgeleg.R;
 
 public class Activity_Galgeleg extends AppCompatActivity implements View.OnClickListener {
 

@@ -1,6 +1,6 @@
 package dk.larsen.galgeleg;
 
-import android.view.View;
+import dk.larsen.galgeleg.Model.Galgelogik;
 
 //Ville gerne prøve at lave en Presenter, til MVP.
 

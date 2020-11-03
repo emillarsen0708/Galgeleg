@@ -1,4 +1,4 @@
-package dk.larsen.galgeleg;
+package dk.larsen.galgeleg.Model;
 
 import java.io.BufferedReader;
 import java.io.IOException;
